@@ -1,0 +1,106 @@
+body {
+    background:white;
+    text-align: center;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;  /*/*Arial, Helvetica, sans-serif; */ 
+    color: rgb(240, 33, 240); 
+    padding: 60px;
+    
+}
+
+form {
+    padding: 10px;
+
+
+}
+
+label, input, button {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+
+}
+
+label {
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+
+input {
+    margin: 5px 0 15px 0;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid;
+    font-size: 12px;
+    &:focus {
+        outline-color: red; 
+    }
+}
+
+button {
+    @extend input;
+    background-color: rgb(21, 199, 184);
+    color: rgb(206, 43, 43);
+    font-weight: bold;
+    &:active {
+        background: lighten(rgb(243, 193, 243), 25%);
+    }
+}
+
+
+
+    /*
+
+    input
+
+    {
+        margin: 5px 0px 15px 0px;
+        padding: 12px;
+        border-radius: 5px;
+        border: 50px;
+        font-size: 14px;
+        &:focus {
+
+        outline-color: 
+        }
+
+    }
+
+        button {
+
+        @extend input;
+        background-color: rosybrown;
+        color: black;
+        font-weight:
+        font-family: arial;
+        
+        &:active {
+            background:
+        }
+
+
+        }
+    
+    /* green*/
+    /*padding-top: 60px; */
+
+
+    /*
+    @include if-mobile {
+        background: coral;
+    }
+
+    @include if-tablet {
+        background: gold;
+    }
+
+    @include if-desktop {
+        background: lightblue;
+    }
+}
+
+
+a {
+    text-decoration: none;*/

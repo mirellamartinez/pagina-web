@@ -1,0 +1,12 @@
+
+.container {
+
+    width: 100%;
+    /*para que cuando llegue a 1025 px no crezca más*/
+
+    @include if-desktop {
+
+        margin: 0% auto;
+        width: 1024px;
+    }
+}

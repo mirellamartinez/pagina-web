@@ -1,0 +1,26 @@
+.web-header {
+    box-sizing: border-box;
+    background: fade-out(rgb(247, 58, 90), 0.15%);
+    padding: 15px;
+    color: rosybrown;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+    transition: background 0.2s;
+
+    &:hover {
+
+        background: rgb(247, 145, 184);
+    }
+
+    .web-title {
+        font-size: $font-size-large;
+        font-weight: bold;
+        text-transform: uppercase;
+        font-family: 'Bad Script', cursive;
+
+    }
+
+}
